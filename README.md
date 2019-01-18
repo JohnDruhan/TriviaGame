@@ -9,6 +9,6 @@ Trivia Game with multiple choice questions and a limited time to answer.
 
 * If the player runs out of time, the player is told that time's up and the correct answer is displayed. After 10 seconds, the next question is displayed.
   
-* If the player chooses the wrong answer, they are told they selected the wrong answer and the correct answer is displaed. After 10 seconds, the next question is displayed.
+* If the player chooses the wrong answer, they are told they selected the wrong answer and the correct answer is displayed. After 10 seconds, the next question is displayed.
 
 * At the end of the game, on the final screen, the number of correct answers, incorrect answers, and unanswered questions are diplayed. An option to restart the game, without reloading the page, is shown.
