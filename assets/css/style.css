@@ -1,0 +1,92 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  background-image: url("../images/oscarsBackground.jpg");
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#wrapper {
+  width: 960px;
+  height: 95%;
+  box-sizing: border-box;
+  margin: 2.5% auto;
+  background-color: #fff17a;
+}
+
+#sub-wrapper {
+  position: relative;
+  /* top: 15%; */
+}
+
+button {
+  display: block;
+  width: 50%;
+  height: 20%;
+  margin: 0 auto;
+  font-size: 42px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+}
+
+img {
+  height: 200px;
+  padding: 5px;
+}
+
+h1 {
+  padding-top: 2.5%;
+  font-family: 'Baloo Tamma', cursive;
+  font-size: 60px;
+  font-weight: bold;
+  color: blue;
+}
+
+h2 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin-bottom: 10px;
+  margin-right: 25px;
+    margin-left: 25px;
+  font-size: 35px;
+}
+
+h3 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin-bottom: 10px;
+  margin-right: 25px;
+    margin-left: 25px;
+  font-size: 25px;
+}
+
+h4 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-bottom: 2px;
+    margin-right: 25px;
+    margin-left: 25px;
+    font-size: 25px;
+  }
+
+#start {
+  margin-top: 10%;
+  background: lightblue;
+  border: 2px solid blue;
+}
+
+#start-over {
+    margin-top: 10%;
+    background: lightblue;
+    border: 2px solid blue;
+  }
+
+button:hover {
+  background: lightblue;
+  border: 2px solid blue;
+}
